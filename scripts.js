@@ -9,9 +9,6 @@ $$('td', el => {
 });
 
 $$('.ib', el => {
-    el.innerText = el.dataset['num'];
-    el.addEventListener('click', () => {
-        console.log(el);
-        el.style.visibility = (el.style.visibility === 'hidden') ? 'visible' : 'hidden';
-    });
+    el.innerHTML = '<span>' + el.dataset['num'] + '</span>';
+    el.addEventListener('click', () => el.children[0].style.visibility = (el.children[0].style.visibility === 'visible') ? 'hidden' : 'visible');
 });

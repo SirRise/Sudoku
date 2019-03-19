@@ -6,8 +6,8 @@ td {
     border: 1px solid black;
     padding: 0;
     margin: 0;
-    width: 62px;
-    height: 62px;
+    width: 102px;
+    height: 102px;
 }
 
 td.left {
@@ -33,12 +33,15 @@ td {
 
 .ib {
     /* border: 1px dotted red; */
-    width: 20px;
-    height: 20px;
-    margin: -1px 0 -4px 0;
+    width: 33px;
+    height: 33px;
+    margin: -1px 0;
     padding: 9px 0 0 0;
     display: inline-block;
-    font-size: 8px;
     text-align: center;
+}
+
+span {
     visibility: hidden;
+    font-size: 10px;
 }
