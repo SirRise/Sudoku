@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+td {
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    width: 62px;
+    height: 62px;
+}
+
+td.left {
+    border-left: 2px solid black;
+}
+
+td.top {
+    border-top: 2px solid black;
+}
+
+td.right {
+    border-right: 2px solid black;
+}
+
+td.bot {
+    border-bottom: 2px solid black;
+}
+
+table,
+td {
+    border-collapse: collapse;
+}
+
+.ib {
+    /* border: 1px dotted red; */
+    width: 20px;
+    height: 20px;
+    margin: -1px 0 -4px 0;
+    padding: 9px 0 0 0;
+    display: inline-block;
+    font-size: 8px;
+    text-align: center;
+    visibility: hidden;
+}
